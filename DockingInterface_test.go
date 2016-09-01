@@ -5,12 +5,6 @@ import (
 	"testing"
 )
 
-// var (
-// 	test_apiKey    = string([10]byte{})
-// 	test_agentCode = string([10]byte{})
-// 	test_loginId   = string([10]byte{})
-// )
-
 func TestA(*testing.T) {
 	a := make([]byte, 60)
 	test_apiKey := string(a[0:50])
